@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hard Coding Problems</title>
+   <link rel="stylesheet" href="../style/dsa.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  
+</head>
+<body>
+<?php   include '../backsymbol.php'; ?>
+    <div class="container">
+    <h1>Hard 240 Coding Problems</h1>
+    <div class="question-list">
+        <!-- Problems will be listed here -->
+        <div class="question-box hard">
+            <p>(1) Write a program to solve the N-Queens problem.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(2) Write a program to solve the Travelling Salesman Problem (TSP) using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(3) Write a program to implement the A* search algorithm for pathfinding.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(4) Write a program to solve the Maximum Flow problem using the Ford-Fulkerson algorithm.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(5) Write a program to solve the Longest Path problem in a directed acyclic graph (DAG).</p>
+        </div>
+        <div class="question-box hard">
+            <p>(6) Write a program to solve the Knapsack Problem with fractional items (Fractional Knapsack).</p>
+        </div>
+        <div class="question-box hard">
+            <p>(7) Write a program to solve the Subset Sum problem using backtracking.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(8) Write a program to solve the Job Scheduling Problem with deadlines.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(9) Write a program to solve the Maximum Bipartite Matching problem.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(10) Write a program to find the Minimum Cost Path in a grid with obstacles.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(11) Write a program to solve the 0/1 Knapsack Problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(12) Write a program to solve the Largest Rectangle in Histogram problem.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(13) Write a program to solve the Longest Palindromic Substring problem using Manacher's algorithm.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(14) Write a program to solve the Kth Smallest Element in a Matrix problem.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(15) Write a program to solve the Count of Smaller Numbers After Self problem using binary search.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(16) Write a program to solve the Word Break II problem using backtracking and memoization.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(17) Write a program to solve the Maximum Subarray Sum with at most k elements problem.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(18) Write a program to solve the Longest Increasing Path in a Matrix problem.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(19) Write a program to solve the Unique Paths II problem in a grid with obstacles.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(20) Write a program to solve the Sudoku Solver problem using backtracking.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(21) Write a program to solve the Binary Search Tree (BST) Iterator problem.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(22) Write a program to solve the Minimum Window Substring problem.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(23) Write a program to solve the Burst Balloons problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(24) Write a program to solve the Decode Ways II problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(25) Write a program to solve the Maximum Product Subarray problem.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(26) Write a program to solve the Largest Square of 1s problem in a binary matrix.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(27) Write a program to solve the Word Ladder II problem using BFS.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(28) Write a program to solve the Palindrome Partitioning II problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(29) Write a program to solve the Longest Common Subsequence problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(30) Write a program to solve the Maximal Rectangle problem in a binary matrix.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(31) Write a program to solve the Median of Two Sorted Arrays problem.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(32) Write a program to solve the Maximum Profit in Job Scheduling problem with deadlines.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(33) Write a program to solve the Regular Expression Matching problem.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(34) Write a program to solve the Decode Ways problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(35) Write a program to solve the Find Minimum in Rotated Sorted Array problem.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(36) Write a program to solve the Minimum Distance Between BST Nodes problem.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(37) Write a program to solve the Number of Islands II problem.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(38) Write a program to solve the Graph Valid Tree problem using union-find.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(39) Write a program to solve the Largest Number problem using sorting.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(40) Write a program to solve the Sliding Window Maximum problem using deque.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(41) Write a program to solve the Binary Tree Maximum Path Sum problem.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(42) Write a program to solve the Shortest Path in Binary Matrix problem.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(43) Write a program to solve the Construct Binary Tree from Preorder and Inorder Traversal problem.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(44) Write a program to solve the Find K Pairs with Smallest Sums problem.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(45) Write a program to solve the Word Break problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(46) Write a program to solve the Binary Tree Level Order Traversal II problem.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(47) Write a program to solve the Minimum Path Sum in Triangle problem.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(48) Write a program to solve the Number of Unique Binary Search Trees II problem.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(49) Write a program to solve the Serialize and Deserialize Binary Tree problem.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(50) Write a program to solve the Count of Range Sum problem using merge sort.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(51) Write a program to solve the Longest Substring with At Most K Distinct Characters problem.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(52) Write a program to solve the Remove Invalid Parentheses problem.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(53) Write a program to solve the Maximal Square problem in a binary matrix.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(54) Write a program to solve the Search in Rotated Sorted Array II problem.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(55) Write a program to solve the LRU Cache problem using a doubly linked list and hash map.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(56) Write a program to solve the Minimum Window Substring problem using sliding window technique.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(57) Write a program to solve the Palindromic Substrings problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(58) Write a program to solve the Unique Binary Search Trees problem.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(59) Write a program to solve the Largest Rectangle in Histogram problem.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(60) Write a program to solve the Regular Expression Matching problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(61) Write a program to solve the Maximum Subarray Sum II problem.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(62) Write a program to solve the Longest Palindromic Substring problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(63) Write a program to solve the Longest Common Subsequence problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(64) Write a program to solve the Maximum Product Subarray problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(65) Write a program to solve the Minimum Window Substring problem using sliding window technique.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(66) Write a program to solve the Word Ladder II problem using BFS and backtracking.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(67) Write a program to solve the Longest Increasing Path in a Matrix problem using DFS and memoization.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(68) Write a program to solve the Largest Number problem using sorting and custom comparator.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(69) Write a program to solve the Binary Tree Maximum Path Sum problem using DFS.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(70) Write a program to solve the Shortest Path in Binary Matrix problem using BFS.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(71) Write a program to solve the Count of Smaller Numbers After Self problem using binary search.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(72) Write a program to solve the Longest Common Prefix problem using binary search.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(73) Write a program to solve the Jump Game II problem using greedy algorithm.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(74) Write a program to solve the Shortest Path to Get All Keys problem using BFS.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(75) Write a program to solve the Split Array Largest Sum problem using binary search and dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(76) Write a program to solve the Alien Dictionary problem using topological sorting.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(77) Write a program to solve the Largest Rectangle in Histogram problem using stack.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(78) Write a program to solve the Word Break II problem using backtracking and memoization.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(79) Write a program to solve the Number of Islands II problem using union-find.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(80) Write a program to solve the Minimum Distance Between BST Nodes problem using inorder traversal.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(81) Write a program to solve the Longest Palindromic Substring problem using Manacher's algorithm.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(82) Write a program to solve the Unique Paths II problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(83) Write a program to solve the Maximum Profit in Job Scheduling problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(84) Write a program to solve the Maximum Product Subarray problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(85) Write a program to solve the Longest Increasing Path in a Matrix problem using DFS and memoization.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(86) Write a program to solve the Count of Range Sum problem using merge sort.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(87) Write a program to solve the Burst Balloons problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(88) Write a program to solve the Palindromic Substrings problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(89) Write a program to solve the Serialize and Deserialize Binary Tree problem.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(90) Write a program to solve the Binary Tree Level Order Traversal II problem.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(91) Write a program to solve the Maximum Path Sum in Binary Tree problem using DFS.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(92) Write a program to solve the Regular Expression Matching problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(93) Write a program to solve the Maximum Subarray Sum II problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(94) Write a program to solve the Longest Increasing Path in a Matrix problem using DFS and memoization.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(95) Write a program to solve the Minimum Window Substring problem using sliding window technique.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(96) Write a program to solve the Longest Common Subsequence problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(97) Write a program to solve the Palindrome Partitioning II problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(98) Write a program to solve the Count of Smaller Numbers After Self problem using binary search.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(99) Write a program to solve the Longest Palindromic Substring problem using Manacher's algorithm.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(100) Write a program to solve the Maximum Profit in Job Scheduling problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(101) Write a program to solve the Maximum Product Subarray problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(102) Write a program to solve the Largest Rectangle in Histogram problem using stack.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(103) Write a program to solve the Unique Paths II problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(104) Write a program to solve the Longest Increasing Path in a Matrix problem using DFS and memoization.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(105) Write a program to solve the Minimum Distance Between BST Nodes problem using inorder traversal.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(106) Write a program to solve the Serialize and Deserialize Binary Tree problem.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(107) Write a program to solve the Binary Tree Level Order Traversal II problem.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(108) Write a program to solve the Regular Expression Matching problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(109) Write a program to solve the Longest Common Prefix problem using binary search.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(110) Write a program to solve the Largest Number problem using sorting and custom comparator.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(111) Write a program to solve the Jump Game II problem using greedy algorithm.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(112) Write a program to solve the Count of Range Sum problem using merge sort.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(113) Write a program to solve the Burst Balloons problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(114) Write a program to solve the Minimum Window Substring problem using sliding window technique.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(115) Write a program to solve the Longest Palindromic Substring problem using Manacher's algorithm.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(116) Write a program to solve the Maximum Product Subarray problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(117) Write a program to solve the Longest Increasing Path in a Matrix problem using DFS and memoization.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(118) Write a program to solve the Unique Paths II problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(119) Write a program to solve the Regular Expression Matching problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(120) Write a program to solve the Maximum Path Sum in Binary Tree problem using DFS.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(121) Write a program to solve the Binary Tree Maximum Path Sum problem using DFS.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(122) Write a program to solve the Word Break II problem using backtracking and memoization.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(123) Write a program to solve the Count of Smaller Numbers After Self problem using binary search.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(124) Write a program to solve the Longest Common Subsequence problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(125) Write a program to solve the Maximum Profit in Job Scheduling problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(126) Write a program to solve the Maximum Product Subarray problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(127) Write a program to solve the Longest Increasing Path in a Matrix problem using DFS and memoization.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(128) Write a program to solve the Longest Palindromic Substring problem using Manacher's algorithm.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(129) Write a program to solve the Burst Balloons problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(130) Write a program to solve the Count of Range Sum problem using merge sort.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(131) Write a program to solve the Maximum Product Subarray problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(132) Write a program to solve the Maximum Path Sum in Binary Tree problem using DFS.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(133) Write a program to solve the Regular Expression Matching problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(134) Write a program to solve the Unique Paths II problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(135) Write a program to solve the Longest Increasing Path in a Matrix problem using DFS and memoization.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(136) Write a program to solve the Longest Common Subsequence problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(137) Write a program to solve the Minimum Window Substring problem using sliding window technique.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(138) Write a program to solve the Maximum Product Subarray problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(139) Write a program to solve the Count of Smaller Numbers After Self problem using binary search.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(140) Write a program to solve the Word Break II problem using backtracking and memoization.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(141) Write a program to solve the Maximum Path Sum in Binary Tree problem using DFS.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(142) Write a program to solve the Binary Tree Maximum Path Sum problem using DFS.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(143) Write a program to solve the Longest Palindromic Substring problem using Manacher's algorithm.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(144) Write a program to solve the Maximum Product Subarray problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(145) Write a program to solve the Burst Balloons problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(146) Write a program to solve the Longest Increasing Path in a Matrix problem using DFS and memoization.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(147) Write a program to solve the Minimum Window Substring problem using sliding window technique.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(148) Write a program to solve the Longest Common Prefix problem using binary search.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(149) Write a program to solve the Unique Paths II problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(150) Write a program to solve the Maximum Path Sum in Binary Tree problem using DFS.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(151) Write a program to solve the Regular Expression Matching problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(152) Write a program to solve the Binary Tree Level Order Traversal II problem.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(153) Write a program to solve the Longest Palindromic Substring problem using Manacher's algorithm.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(154) Write a program to solve the Maximum Product Subarray problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(155) Write a program to solve the Longest Common Subsequence problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(156) Write a program to solve the Maximum Path Sum in Binary Tree problem using DFS.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(157) Write a program to solve the Count of Smaller Numbers After Self problem using binary search.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(158) Write a program to solve the Regular Expression Matching problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(159) Write a program to solve the Unique Paths II problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(160) Write a program to solve the Longest Increasing Path in a Matrix problem using DFS and memoization.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(161) Write a program to solve the Maximum Product Subarray problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(162) Write a program to solve the Count of Range Sum problem using merge sort.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(163) Write a program to solve the Burst Balloons problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(164) Write a program to solve the Maximum Path Sum in Binary Tree problem using DFS.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(165) Write a program to solve the Longest Common Subsequence problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(166) Write a program to solve the Regular Expression Matching problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(167) Write a program to solve the Maximum Product Subarray problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(168) Write a program to solve the Longest Increasing Path in a Matrix problem using DFS and memoization.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(169) Write a program to solve the Binary Tree Level Order Traversal II problem.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(170) Write a program to solve the Longest Palindromic Substring problem using Manacher's algorithm.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(171) Write a program to solve the Unique Paths II problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(172) Write a program to solve the Maximum Path Sum in Binary Tree problem using DFS.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(173) Write a program to solve the Minimum Window Substring problem using sliding window technique.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(174) Write a program to solve the Longest Common Subsequence problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(175) Write a program to solve the Maximum Product Subarray problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(176) Write a program to solve the Regular Expression Matching problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(177) Write a program to solve the Longest Increasing Path in a Matrix problem using DFS and memoization.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(178) Write a program to solve the Binary Tree Maximum Path Sum problem using DFS.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(179) Write a program to solve the Count of Smaller Numbers After Self problem using binary search.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(180) Write a program to solve the Longest Common Prefix problem using binary search.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(181) Write a program to solve the Unique Paths II problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(182) Write a program to solve the Minimum Distance Between BST Nodes problem using inorder traversal.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(183) Write a program to solve the Longest Palindromic Substring problem using Manacher's algorithm.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(184) Write a program to solve the Maximum Product Subarray problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(185) Write a program to solve the Count of Range Sum problem using merge sort.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(186) Write a program to solve the Maximum Path Sum in Binary Tree problem using DFS.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(187) Write a program to solve the Longest Common Subsequence problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(188) Write a program to solve the Unique Paths II problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(189) Write a program to solve the Minimum Window Substring problem using sliding window technique.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(190) Write a program to solve the Count of Smaller Numbers After Self problem using binary search.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(191) Write a program to solve the Longest Increasing Path in a Matrix problem using DFS and memoization.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(192) Write a program to solve the Longest Palindromic Substring problem using Manacher's algorithm.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(193) Write a program to solve the Binary Tree Maximum Path Sum problem using DFS.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(194) Write a program to solve the Unique Paths II problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(195) Write a program to solve the Maximum Path Sum in Binary Tree problem using DFS.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(196) Write a program to solve the Count of Smaller Numbers After Self problem using binary search.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(197) Write a program to solve the Regular Expression Matching problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(198) Write a program to solve the Maximum Product Subarray problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(199) Write a program to solve the Longest Common Subsequence problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(200) Write a program to solve the Unique Paths II problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(201) Write a program to solve the Count of Smaller Numbers After Self problem using binary search.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(202) Write a program to solve the Longest Palindromic Substring problem using Manacher's algorithm.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(203) Write a program to solve the Maximum Path Sum in Binary Tree problem using DFS.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(204) Write a program to solve the Longest Increasing Path in a Matrix problem using DFS and memoization.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(205) Write a program to solve the Count of Range Sum problem using merge sort.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(206) Write a program to solve the Minimum Window Substring problem using sliding window technique.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(207) Write a program to solve the Regular Expression Matching problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(208) Write a program to solve the Maximum Product Subarray problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(209) Write a program to solve the Unique Paths II problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(210) Write a program to solve the Longest Common Subsequence problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(211) Write a program to solve the Longest Palindromic Substring problem using Manacher's algorithm.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(212) Write a program to solve the Maximum Path Sum in Binary Tree problem using DFS.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(213) Write a program to solve the Count of Smaller Numbers After Self problem using binary search.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(214) Write a program to solve the Longest Increasing Path in a Matrix problem using DFS and memoization.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(215) Write a program to solve the Maximum Product Subarray problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(216) Write a program to solve the Count of Range Sum problem using merge sort.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(217) Write a program to solve the Binary Tree Level Order Traversal II problem.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(218) Write a program to solve the Regular Expression Matching problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(219) Write a program to solve the Unique Paths II problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(220) Write a program to solve the Longest Palindromic Substring problem using Manacher's algorithm.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(221) Write a program to solve the Maximum Path Sum in Binary Tree problem using DFS.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(222) Write a program to solve the Count of Smaller Numbers After Self problem using binary search.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(223) Write a program to solve the Maximum Product Subarray problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(224) Write a program to solve the Longest Common Subsequence problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(225) Write a program to solve the Longest Increasing Path in a Matrix problem using DFS and memoization.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(226) Write a program to solve the Binary Tree Maximum Path Sum problem using DFS.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(227) Write a program to solve the Minimum Window Substring problem using sliding window technique.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(228) Write a program to solve the Count of Range Sum problem using merge sort.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(229) Write a program to solve the Regular Expression Matching problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(230) Write a program to solve the Maximum Product Subarray problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(231) Write a program to solve the Longest Common Subsequence problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(232) Write a program to solve the Binary Tree Level Order Traversal II problem.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(233) Write a program to solve the Unique Paths II problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(234) Write a program to solve the Longest Palindromic Substring problem using Manacher's algorithm.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(235) Write a program to solve the Count of Smaller Numbers After Self problem using binary search.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(236) Write a program to solve the Maximum Path Sum in Binary Tree problem using DFS.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(237) Write a program to solve the Longest Increasing Path in a Matrix problem using DFS and memoization.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(238) Write a program to solve the Maximum Product Subarray problem using dynamic programming.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(239) Write a program to solve the Count of Range Sum problem using merge sort.</p>
+        </div>
+        <div class="question-box hard">
+            <p>(240) Write a program to solve the Regular Expression Matching problem using dynamic programming.</p>
+        </div>
+    </div>
+    </div>
+
+</body>
+</html>
+
